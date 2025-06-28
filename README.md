@@ -53,7 +53,7 @@ Build Keyword-Extractor from the source and install dependencies:
 1.  Clone the repository:
 
     ```bash
-    git clone [https://github.com/Bhavanam-Gireesh-Reddy/Keyword-Extractor](https://github.com/Bhavanam-Gireesh-Reddy/Keyword-Extractor)
+    git clone https://github.com/Bhavanam-Gireesh-Reddy/Keyword-Extractor.git
     ```
     
 2.  Navigate to the project directory:
