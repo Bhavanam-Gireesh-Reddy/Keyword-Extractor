@@ -22,25 +22,56 @@ Built with the tools and technologies:
 ---
 
 ## Overview
-This section will describe what your project is about, its purpose, and key features.
+
+Keyword-Extractor is a versatile developer tool designed to extract relevant keywords from a variety of document sources, including PDFs, web pages, and files. It leverages language models and text processing techniques to facilitate efficient content indexing, search, and retrieval within larger systems.
+
+### Why Keyword-Extractor?
+
+This project aims to simplify the process of analyzing unstructured textual data. The core features include:
+
+* ✨ **Multi-source ingestion:** Seamlessly process diverse document formats for comprehensive keyword extraction.
+* 🔍 **Accurate keyword identification:** Utilizes advanced language models to generate meaningful keywords.
+* 📊 **Supports content organization:** Enhances search, categorization, and information retrieval tasks.
+* ⚙️ **Integrates easily:** Serves as a foundational component for building smarter text analysis workflows.
+* 🚀 **Prototyping environment:** Provides an exploratory notebook for testing and refining extraction strategies.
 
 ---
 
 ## Getting Started
-This section will guide users on how to set up and run your project.
 
 ### Prerequisites
-List all the software, libraries, or tools required before installation.
+
+This project requires the following dependencies:
+
+* Programming Language: Python
+* Tools & Technologies: ML, LLM, AI.
 
 ### Installation
-Provide step-by-step instructions on how to install your project.
 
----
+Build Keyword-Extractor from the source and install dependencies:
+
+1.  Clone the repository:
+
+    ```bash
+    git clone [https://github.com/Bhavanam-Gireesh-Reddy/Keyword-Extractor](https://github.com/Bhavanam-Gireesh-Reddy/Keyword-Extractor)
+    ```
+    
+2.  Navigate to the project directory:
+
+    ```bash
+    cd Keyword-Extractor
+    ```
+3.  Install the dependencies:
+
+    ```bash
+    pip install langchain-groq langchain_community requests chromadb langchain-chroma faiss-cpu sentence-transformers pypdf unstructured "unstructured[pdf]" "unstructured[docx]" python-dotenv
+    ```
 
 ## Usage
-Explain how to use your project, including examples or common workflows.
 
+Run the project with:
+
+```bash
+python Keyword-Extractor
+```
 ---
-
-## Testing
-Detail how to run tests for your project and what to expect.
